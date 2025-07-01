@@ -30,17 +30,3 @@ Run the unit tests with:
 ```
 python3 -m unittest
 ```
-
-## Running in Visual Studio Code
-
-If you're using VS Code, you can start the server directly from the integrated
-terminal:
-
-1. Open the repository in VS Code.
-2. Open the integrated terminal with <kbd>Ctrl</kbd>+<kbd>`</kbd> or from the
-   *Terminal* menu.
-3. Run `python3 -m game.server` in the terminal.
-4. In a second terminal window (this can be another VS Code terminal or any
-   system shell) connect to the server with `telnet localhost 12345`.
-
-From there you can begin issuing game commands as shown above.
